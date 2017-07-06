@@ -60,8 +60,45 @@ $ pip3 install flask
 ```
 
 ## 七、项目结构
-
+1、结构图
 [项目结构图](http://ww1.sinaimg.cn/large/bd31b54fgy1fh9gmmd1jxj20pf0pdmy1.jpg)
+
+2、构建相同环境的包
+
+Flask==0.10.1     [Flask web框架](http://docs.jinkan.org/docs/flask/)
+
+Flask-Bootstrap==3.0.3.1     [推特开源框架](http://flask-bootstrap-zh.readthedocs.io/zh/latest/)
+
+Flask-Mail==0.9.0     [Flask 邮件](https://pythonhosted.org/Flask-Mail/)
+
+Flask-Migrate==1.1.0     [管理升级迁移数据库](https://www.google.com.hk/search?q=Flask-Migrate&rlz=1C1CHZL_zh-cnUS713US713&oq=Flask-Migrate&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8&gws_rd=cr,ssl)
+
+Flask-Moment==0.2.0     [轻量级JavaScript日起处理类库](https://github.com/miguelgrinberg/Flask-Moment)
+
+Flask-SQLAlchemy==1.0     [数据库管理](http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
+
+Flask-Script==0.6.6     [Flask应用命令行解析器](https://github.com/nummy/flask-script-cn)
+
+Flask-WTF==0.9.4     [基于Flask 的WTForms 集成](http://docs.jinkan.org/docs/flask-wtf/)
+
+Jinja2==2.7.1     [Jinja2 是一个 Python 的功能齐全的模板引擎](http://docs.jinkan.org/docs/jinja2/)
+
+Mako==0.9.1     [Mako模板库](http://www.makotemplates.org/)
+
+MarkupSafe==0.18     [MarkupSafe是一个用于Python的库，它实现了一个识别HTML转义规则的unicode字符串，可用于实现自动字符串转义。它由Jinja 2，Mako模板引擎，Pylons Web框架等等使用。](http://www.pocoo.org/projects/markupsafe/)
+
+SQLAlchemy==0.8.4     [SQLAlchemy是Python SQL工具包和对象关系映射器，为应用程序开发人员提供了SQL的全部功能和灵活性。](https://www.sqlalchemy.org/)
+
+WTForms==1.0.5     [表单处理模块](http://docs.jinkan.org/docs/flask/patterns/wtforms.html)
+
+Werkzeug==0.9.4     [Werkzeug是一个WSGI工具包，他可以作为一个Web框架的底层库](http://werkzeug-docs-cn.readthedocs.io/zh_CN/latest/)
+
+alembic==0.6.2     [Alembic是用于Python的SQLAlchemy数据库工具包的轻量级数据库迁移工具。](http://alembic.zzzcomputing.com/en/latest/)
+
+blinker==1.3     [Blinker 是一个基于Python的强大的信号库，它既支持简单的对象到对象通信，也支持针对多个对象进行组播。Flask的信号机制就是基于它建立的。](http://python.jobbole.com/85554/)
+
+itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据，但如何安全完成这个任务呢？解决的方法就是签名。使用只有你自己知道的密钥，来加密签名你的数据，并把加密后的数据发给别人。当你取回数据时，你就可以确保没人篡改过这份数据。](http://itsdangerous.readthedocs.io/en/latest/)
+
 
 # 问题解决 
 
