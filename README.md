@@ -61,7 +61,7 @@ $ pip3 install flask
 
 ## 七、项目结构
 
-[项目结构图](http://ww1.sinaimg.cn/large/bd31b54fgy1fh9gmmd1jxj20pf0pdmy1.jpg)
+![项目结构图](http://ww1.sinaimg.cn/large/bd31b54fgy1fh9gmmd1jxj20pf0pdmy1.jpg)
 
 # 问题解决 
 
