@@ -106,5 +106,5 @@ itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据
 
 问题解决2： 第六章， 在设置邮件用户名和密码之后，如果关闭当前窗口，重新打开后需要重新设置。[参考](http://cocode.cc/t/flask-web-python-shell-errno-10060/3508/23)
 
-
+问题解决3： 第六章，“warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future. Set it to True to suppress this warning.')”  [参考](http://cocode.cc/t/flask-web-flask-sqlalchemy/3443)
 
