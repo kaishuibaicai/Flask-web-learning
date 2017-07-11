@@ -91,13 +91,13 @@ SQLAlchemy==0.8.4     [SQLAlchemy是Python SQL工具包和对象关系映射�
 
 WTForms==1.0.5     [表单处理模块](http://docs.jinkan.org/docs/flask/patterns/wtforms.html)
 
-Werkzeug==0.9.4     [Werkzeug是一个WSGI工具包，他可以作为一个Web框架的底层库](http://werkzeug-docs-cn.readthedocs.io/zh_CN/latest/)
+Werkzeug==0.9.4     [Werkzeug是一个WSGI工具包，他可以作为一个Web框架的底层库](http://werkzeug-docs-cn.readthedocs.io/zh_CN/latest/) 计算密码散列值并进行核对
 
 alembic==0.6.2     [Alembic是用于Python的SQLAlchemy数据库工具包的轻量级数据库迁移工具。](http://alembic.zzzcomputing.com/en/latest/)
 
 blinker==1.3     [Blinker 是一个基于Python的强大的信号库，它既支持简单的对象到对象通信，也支持针对多个对象进行组播。Flask的信号机制就是基于它建立的。](http://python.jobbole.com/85554/)
 
-itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据，但如何安全完成这个任务呢？解决的方法就是签名。使用只有你自己知道的密钥，来加密签名你的数据，并把加密后的数据发给别人。当你取回数据时，你就可以确保没人篡改过这份数据。](http://itsdangerous.readthedocs.io/en/latest/)
+itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据，但如何安全完成这个任务呢？解决的方法就是签名。使用只有你自己知道的密钥，来加密签名你的数据，并把加密后的数据发给别人。当你取回数据时，你就可以确保没人篡改过这份数据。](http://itsdangerous.readthedocs.io/en/latest/) 生成并核对加密安全令牌
 
 
 # 问题解决 
