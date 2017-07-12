@@ -108,6 +108,6 @@ itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据
 
 问题解决3： 第六章，“warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future. Set it to True to suppress this warning.')”  [参考](http://cocode.cc/t/flask-web-flask-sqlalchemy/3443)
 
-
+问题解决4： 第六章，“TypeError: __init__() got an unexpected keyword argument 'method'” ：在views.py中的'methods'写成了'method'
 # 拓展阅读
 1、[计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)
