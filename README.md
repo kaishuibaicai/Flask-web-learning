@@ -109,5 +109,10 @@ itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据
 问题解决3： 第六章，“warnings.warn('SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future. Set it to True to suppress this warning.')”  [参考](http://cocode.cc/t/flask-web-flask-sqlalchemy/3443)
 
 问题解决4： 第六章，“TypeError: __init__() got an unexpected keyword argument 'method'” ：在views.py中的'methods'写成了'method'
+
+问题解决5： 第八章，“sqlalchemy.exc.OperationalError
+sqlalchemy.exc.OperationalError: (OperationalError) no such column: comments.confirmed 'SELECT count(*) AS count_1 \nFROM (SELECT comments.id AS comments_id, comments.author_id AS comments_author_id, comments.post_id AS comments_post_id, comments.confirmed AS comments_confirmed \nFROM comments \nWHERE ? = comments.post_id) AS anon_1' (104,)”
+[参考](https://www.zhihu.com/question/41750158)
+
 # 拓展阅读
 1、[计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)
