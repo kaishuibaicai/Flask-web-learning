@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}开水白菜 - 确认你的账户{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+	<h1>
+		你好，{{ current_user.username }}!
+	</h1>
+	<h3>你还没有确认你的账户.</h3>
+	<p>
+		在正式访问本网页之前，你需要确认你的账户.
+		你可以在你的邮箱查看确认连接.
+	</p>
+	<p>
+		如果没有收到邮件，
+		<a href="{{ url_for('auth.resend_confirmation') }}">点击这里</a>
+	</p>
+</div>
+{% endblock %}

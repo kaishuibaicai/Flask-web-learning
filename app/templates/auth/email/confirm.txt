@@ -1,0 +1,24 @@
+你好， {{ user.username }}!
+欢迎来到开水白菜的博客！
+请点击以下链接来完成你的账户注册：
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+此致，
+
+开水白菜
+
+（注意：直接回复此邮件将被忽略。）
+
+
+×××××××××××××××××××××××××××××××
+
+Dear {{ user.username }},
+Welcome to KSBC's blog!
+To confirm your account please click on the following link:
+{{ url_for('auth.confirm', token=token, _external=Ture) }}
+
+Sincerely,
+
+KSBC
+
+Note: replies to this email address are not monitored.
