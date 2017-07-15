@@ -1,0 +1,15 @@
+<p>你好 {{ user.username }},</p>
+<p>确认你的新邮箱地址 <a href="{{ url_for('auth.change_email', token=token, _external=True) }}">点击这里</a>.</p>
+<p>或者，你可以将以下链接复制到浏览器地址栏中：</p>
+<p>{{ url_for('auth.change_email', token=token, _external=True) }}</p>
+<p>此致,</p>
+<p>开水白菜</p>
+<p><small>注意：直接回复此邮件将被忽略</small></p>
+<p>********************************</p>
+<p>Dear {{ user.username }},</p>
+<p>To confirm your new email address <a href="{{ url_for('auth.change_email', token=token, _external=True) }}">click here</a>.</p>
+<p>Alternatively, you can paste the following link in your browser's address bar:</p>
+<p>{{ url_for('auth.change_email', token=token, _external=True) }}</p>
+<p>Sincerely,</p>
+<p>KSBC</p>
+<p><small>Note: replies to this email address are not monitored.</small></p>
