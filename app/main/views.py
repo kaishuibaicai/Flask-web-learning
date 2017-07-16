@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask import render_template, session, redirect, url_for, current_app, abort, flash
 from ..email import send_email
-from flask.login import login_required, current_user
+from flask_login import login_required, current_user
 from . import main
 from .forms import NameForm, EditProfileForm, EditProfileAdminForm
 from .. import db
