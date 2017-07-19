@@ -114,5 +114,6 @@ itsdangerous==0.23     [有时候你想向不可信的环境发送一些数据
 sqlalchemy.exc.OperationalError: (OperationalError) no such column: comments.confirmed 'SELECT count(*) AS count_1 \nFROM (SELECT comments.id AS comments_id, comments.author_id AS comments_author_id, comments.post_id AS comments_post_id, comments.confirmed AS comments_confirmed \nFROM comments \nWHERE ? = comments.post_id) AS anon_1' (104,)”
 [参考](https://www.zhihu.com/question/41750158)
 
+问题解决6： 第十一章，“jinja2.exceptions.UndefinedError: 'Permission' is undefined” [参考](http://cocode.cc/t/flask-11-permission-is-undefined/7185)
 # 拓展阅读
 1、[计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)

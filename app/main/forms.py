@@ -40,3 +40,9 @@ class EditProfileAdminForm(FlaskForm):
     def validate_username(self, field):
         if field.data != self.user.username and User.query.filter_by(username=field.data).first():
             raise validationError('用户名已经被使用了')
+
+
+class PostForm(FlaskForm):
+    body = TextAreaField("你的想法是什么？", validators=[Required()])
+    submit = SubmitField('提交')
+
