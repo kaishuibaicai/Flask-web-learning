@@ -1,3 +1,4 @@
+#coding:utf-8
 from datetime import datetime
 from flask import render_template, session, redirect, url_for, current_app, abort, flash, request, make_response
 from ..email import send_email
@@ -236,3 +237,4 @@ def after_request(response):
         if query.duration >= current_app.config['FLASKY_SLOW_DB_QUERY_TIME']:
             current_app.logger.warning('Slow query: %s\nDuration: %fs\nContext: %s\n' % (query.statement, query.parameters, query.duration, query.context))
     return response
+
