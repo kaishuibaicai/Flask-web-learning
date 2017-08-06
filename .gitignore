@@ -39,4 +39,16 @@ nosetests.xml
 *.sqlite
 
 # Virtual environment
-venv
+venv/
+
+# ignore vscode environment
+.vscode/
+
+# ignore tmp
+tmp/
+
+# ignore supervisor configure file
+supervisor.conf
+
+*.pyc
+.bak

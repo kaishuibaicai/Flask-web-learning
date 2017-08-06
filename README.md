@@ -117,5 +117,8 @@ sqlalchemy.exc.OperationalError: (OperationalError) no such column: comments.con
 问题解决6： 第十一章，“jinja2.exceptions.UndefinedError: 'Permission' is undefined” [参考](http://cocode.cc/t/flask-11-permission-is-undefined/7185)
 
 问题解决7： 程序部署， “UnicodeDecodeError: 'ascii' codec can't decode byte 0xe9 in position 0: ordinal not in range(128)” [参考](http://www.cnblogs.com/CasonChan/p/4669799.html)
+
+问题解决8： 程序部署， “Supervisor on Debian Wheezy: another program is already listening on a port that one of our HTTP servers is configured to use”[参考](https://stackoverflow.com/questions/25121838/supervisor-on-debian-wheezy-another-program-is-already-listening-on-a-port-that)
+
 # 拓展阅读
 1、[计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)
