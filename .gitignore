@@ -41,14 +41,10 @@ nosetests.xml
 # Virtual environment
 venv/
 
-# ignore vscode environment
-.vscode/
-
 # ignore tmp
 tmp/
 
 # ignore supervisor configure file
 supervisor.conf
 
-*.pyc
-.bak
+log/
