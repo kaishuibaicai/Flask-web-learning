@@ -122,3 +122,4 @@ sqlalchemy.exc.OperationalError: (OperationalError) no such column: comments.con
 
 # 拓展阅读
 1、[计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)
+2、[当我们在使用Flask时，如何如记录日志](http://blog.csdn.net/iszhenyu/article/details/56846551)
