@@ -121,5 +121,13 @@ sqlalchemy.exc.OperationalError: (OperationalError) no such column: comments.con
 问题解决8： 程序部署， “Supervisor on Debian Wheezy: another program is already listening on a port that one of our HTTP servers is configured to use”[参考](https://stackoverflow.com/questions/25121838/supervisor-on-debian-wheezy-another-program-is-already-listening-on-a-port-that)
 
 # 拓展阅读
-1、[计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)
-2、[当我们在使用Flask时，如何如记录日志](http://blog.csdn.net/iszhenyu/article/details/56846551)
+1. [计算加盐密码散列值的正确方法](https://crackstation.net/hashing-security.htm)
+2. [当我们在使用Flask时，如何如记录日志](http://blog.csdn.net/iszhenyu/article/details/56846551)
+3. **关于Flask 源码解析的一些资料：**
+   - [Flask 源码](https://github.com/pallets/flask)
+   - [系列文章](http://python.jobbole.com/87323/)
+   - [Python wsgi 简介](http://cizixs.com/2014/11/08/understand-wsgi)
+   - [什么是web框架](http://cizixs.com/2015/09/21/what-is-a-web-framework)
+
+
+
